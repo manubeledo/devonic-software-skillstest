@@ -1,0 +1,54 @@
+.navigationContainer {
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-around;
+    background-color: #006FFF;
+    color: white;
+}
+
+.secondaryNavigation {
+  display: flex;
+  align-items: center;
+}
+
+.logIn{
+  margin-right: 2rem;
+}
+
+.freeTrial {
+  background-color: #353535;
+  padding: 0.25rem 0.75rem;
+}
+
+.secondaryNavbar{
+  padding: 0.5rem;
+  display: flex;
+  background-color: #414141;
+}
+
+.secondaryNavbarTitle{
+  padding: 0.5rem;
+  margin-left: 20.75rem;
+  color: white;
+}
+
+
+@media (max-width: 720px) {
+  .navigationContainer{
+    width: 100%;
+  }
+  .mainNavigation{
+    width: 100%;
+  }
+  .secondaryNavigation{
+    width: 100%;
+  }
+  .secondaryNavbar{
+    width: 100%;
+    align-items: center;
+  }
+  .secondaryNavbarTitle{
+    padding: 0.5rem;
+    margin: auto;
+  }
+}
